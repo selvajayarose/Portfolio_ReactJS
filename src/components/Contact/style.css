@@ -1,0 +1,25 @@
+.contact {
+  flex-grow: 1;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.contact h1 {
+  margin-bottom: 20px;
+}
+.btn{
+  color: #64ffda;
+  background-color: transparent;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  font-size: 16px;
+  font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgba(100,255,218,0.1);
+}

@@ -16,7 +16,7 @@
  .home .title .firstLine{
     color: #64ffda;
     font-size: 16px;
-    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    /* font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace; */
     font-weight: normal;
     margin-left: 4px;
   }
@@ -40,7 +40,7 @@
     border-radius: 4px;
     padding: 1rem;
     font-size: 16px;
-    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    /* font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace; */
     line-height: 1;
     text-decoration: none;
     cursor: pointer;

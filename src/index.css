@@ -1,14 +1,26 @@
+/* src/styles/tailwind.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* src/index.css
+@import "./styles/tailwind.css"; */
+
 * {
   padding: 0;
   margin: 0;
 }
 
-@font-face {
+/* @font-face {
   font-family: "FleurDeLeah-Regular";
   src: url("/public/FleurDeLeah-Regular.ttf") format("woff2"),
     url("/public/OFL.txt") format("woff");
   font-weight: normal;
   font-style: normal;
+} */
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -16,17 +28,13 @@ body {
   scrollbar-width: none; /* Firefox */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff;
-  font-family: "Poppins", sans-serif;
+  background-color: #0a192f;
+  font-family: sans-serif;
 }
 
-main {
-  height: calc(100vh - 80px);
-}
-
-main,
 section {
-  max-width: 1080px;
-  padding: 40px 12% !important;
+  max-width: 1440px;
+  padding: 8%;
   float: none !important;
+  margin: 0 auto !important;
 }
